@@ -176,22 +176,51 @@
 
                     </div>
                 </div>
-                <div>
-                    <div class="pt-4">
-                        <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">
-                            price
-                        </h3>
-                        <div class="mt-4 flex items-center">
+                <div class="pt-4">
+                    <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">
+                        price
+                    </h3>
+                    <div class="mt-4 flex items-center">
+                        <input type="text" class="w-full border-gray-300 focus:border-primary
+                            focus:ring-0 px-3 py-1 text-gray-600 text-sm shadow-sm rounded"
+                            placeholder="min">
+                        <span class="mx-3 text-gray-500">-</span>
                             <input type="text" class="w-full border-gray-300 focus:border-primary
-                             focus:ring-0 px-3 py-1 text-gray-600 text-sm shadow-sm rounded"
-                             placeholder="min">
-                            <span class="max-3 text-gray-500">-</span>
-                             <input type="text" class="w-full border-gray-300 focus:border-primary
-                             focus:ring-0 px-3 py-1 text-gray-600 text-sm shadow-sm rounded"
-                             placeholder="max">
-                        </div>
+                            focus:ring-0 px-3 py-1 text-gray-600 text-sm shadow-sm rounded"
+                            placeholder="max">
                     </div>
                 </div>
+                <div class="pt-4">
+                    <h3 class="text-xl text-gray-800 mb-3 uppercase font-medium">
+                        size
+                    </h3>
+                    <div class="flex items-center gap-2">
+                        <div class="size-selector">
+                            <input type="radio" name="size" class="hidden" id="size-xs">
+                            <label for="size-xs" class="text-xs border border-gray-200 rounded-sm h-6 w-6
+                            items-center justify-center cursor-pointer shadow-sm text-gray-600">XS</label> 
+                        </div>
+                        <div class="size-selector">
+                            <input type="radio" name="size" class="hidden" id="size-s">
+                            <label for="size-s" class="text-s border border-gray-200 rounded-sm h-6 w-6
+                            items-center justify-center cursor-pointer shadow-sm text-gray-600">S</label> 
+                        </div>
+                        <div class="size-selector">
+                            <input type="radio" name="size" class="hidden" id="size-m">
+                            <label for="size-m" class="text-m border border-gray-200 rounded-sm h-6 w-6
+                            items-center justify-center cursor-pointer shadow-sm text-gray-600">M</label> 
+                        </div>
+                        <div class="size-selector">
+                            <input type="radio" name="size" class="hidden" id="size-l">
+                            <label for="size-l" class="text-m border border-gray-200 rounded-sm h-6 w-6
+                            items-center justify-center cursor-pointer shadow-sm text-gray-600">L</label> 
+                        </div>
+                        <div class="size-selector">
+                            <input type="radio" name="size" class="hidden" id="size-xl">
+                            <label for="size-xl" class="text-m border border-gray-200 rounded-sm h-6 w-6
+                            items-center justify-center cursor-pointer shadow-sm text-gray-600">XL</label> 
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
